@@ -4,7 +4,7 @@ script: echo "Skipping build"
 deploy:
   edge: true
   provider: bluemixcloudfoundry
-  username: nick_oleary@uk.ibm.com
+  username: apikey
   organization: nick_oleary@uk.ibm.com
   space: dev
   manifest: manifest.yml
