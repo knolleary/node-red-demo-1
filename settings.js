@@ -7,5 +7,10 @@ module.exports = {
         default: {
             permissions: "read"
         }
+    },
+    logging: {
+        console:{
+            level:"trace"
+        }
     }
-}
+};
