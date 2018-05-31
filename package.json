@@ -2,7 +2,12 @@
     "name": "node-red-demo-1",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        
+    },
+    "scripts": {
+        "start": "node --max-old-space-size=384 ./node_modules/node-red/red.js --settings ./settings.js"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
