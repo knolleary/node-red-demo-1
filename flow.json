@@ -1,1 +1,24 @@
-[]
+[
+    {
+        "id": "b669c604.1ca968",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "2a24a600.74738a",
+        "type": "http request",
+        "z": "b669c604.1ca968",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "url": "",
+        "tls": "",
+        "x": 342,
+        "y": 282,
+        "wires": [
+            []
+        ]
+    }
+]
